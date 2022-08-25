@@ -1,0 +1,198 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App3.MainPage">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Label
+            x:Name="labelDisplay"
+            Text="0"
+            HorizontalTextAlignment="end"
+            Grid.Row="0"
+            Grid.Column="0"
+            Grid.ColumnSpan="4"
+            FontSize="Title"
+        ></Label>
+
+        <Button
+            x:Name="allClear"
+            Text="AC"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="1"
+            Grid.Column="0"
+            FontSize="Title"
+        ></Button>
+
+
+        <Button
+            x:Name="sumButton"
+            Text="+"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="4"
+            Grid.Column="3"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="subButton"
+            Text="-"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="3"
+            Grid.Column="3"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="multButton"
+            Text="x"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            Grid.Column="3"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="divButton"
+            Text="/"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="1"
+            Grid.Column="3"
+            FontSize="Title"
+        ></Button>
+
+        
+        <Button
+            x:Name="decimalButton"
+            Text="."
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="5"
+            Grid.Column="2"
+            FontSize="Title"
+        ></Button>
+
+
+        <Button
+            x:Name="btn0"
+            Text="0"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="5"
+            Grid.Column="0"
+            Grid.ColumnSpan="2"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn1"
+            Text="1"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="4"
+            Grid.Column="0"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn2"
+            Text="2"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="4"
+            Grid.Column="1"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn3"
+            Text="3"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="4"
+            Grid.Column="2"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn4"
+            Text="4"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="3"
+            Grid.Column="0"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn5"
+            Text="5"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="3"
+            Grid.Column="1"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn6"
+            Text="6"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="3"
+            Grid.Column="2"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn7"
+            Text="7"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            Grid.Column="0"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn8"
+            Text="8"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            Grid.Column="1"
+            FontSize="Title"
+        ></Button>
+
+        <Button
+            x:Name="btn9"
+            Text="9"
+            BackgroundColor="DarkGreen"
+            HorizontalOptions="Center"
+            Grid.Row="2"
+            Grid.Column="2"
+            FontSize="Title"
+        ></Button>
+
+    </Grid>
+
+</ContentPage>
